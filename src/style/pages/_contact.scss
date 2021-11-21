@@ -1,0 +1,157 @@
+.contact iframe {
+    border: 0;
+    width: 100%;
+    height: 270px;
+}
+
+.contact .info {
+    width: 100%;
+    background: url(../contact-us.jpg);
+    border-radius: 10px;
+}
+
+.contact .info i {
+    font-size: 20px;
+    color: $bleu;
+    float: left;
+    width: 44px;
+    height: 44px;
+    background: $jaune;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    transition: all 0.3s ease-in-out;
+}
+
+.contact .info h4 {
+    padding: 0 0 0 60px;
+    font-size: 22px;
+    font-weight: 600;
+    margin-bottom: 5px;
+    color: $bleu;
+}
+
+.contact .info p {
+    padding: 0 0 0 60px;
+    margin-bottom: 0;
+    font-size: 14px;
+    color: $color-5;
+}
+
+.contact .info .email, .contact .info .phone {
+    margin-top: 40px;
+}
+
+.contact .info .email:hover i, 
+.contact .info .address:hover i, 
+.contact .info .phone:hover i {
+    background: $jaune-2;
+    color: white;
+}
+
+.contact .contact-form {
+    width: 100%;
+    background: white;
+}
+
+.contact .contact-form .form-group {
+    padding-bottom: 8px;
+}
+
+.contact .contact-form .form-group #not-mail {
+    display: none;
+    position: absolute;
+    top: 4px;
+    color: #ff4d4d;
+    right: 0;
+    transform-origin: 50% 50%;
+}
+
+@keyframes dongle {
+    0% {
+      transform: translate(0px, 0px);
+    }
+    10% {
+      transform: translate(-10px, 0px);
+    }
+    20% {
+      transform: translate(10px, 0px);
+    }
+    30% {
+      transform: translate(-10px, 0px);
+    }
+    40% {
+      transform: translate(10px, 0px);
+    }
+    50% {
+      transform: translate(-10px, 0px);
+    }
+    60% {
+      transform: translate(10px, 0px);
+    }
+    70% {
+      transform: translate(-10px, 0px);
+    }
+    80% {
+      transform: translate(10px, 0px);
+    }
+    90% {
+      transform: translate(-10px, 0px);
+    }
+    100% {
+      transform: translate(0px, 0px);
+    }
+  }
+
+.contact .contact-form input,
+.contact .contact-form textarea {
+    border-radius: 0;
+    box-shadow: none;
+    font-size: 14px;
+    border-radius: 4px;
+}
+
+.contact .contact-form input:focus,
+.contact .contact-form textarea:focus {
+    border-color: $bleu;
+}
+
+.contact .contact-form input {
+    height: 44px;
+}
+
+.contact .contact-form textarea {
+    padding: 10px 12px;
+}
+
+.contact .contact-form .button {
+    background: $jaune;
+    border: 0;
+    padding: 10px 30px;
+    color: #fff;
+    transition: 0.4s;
+    border-radius: 4px;
+}
+
+.contact .contact-form .button:hover {
+    background: $jaune-2;
+}
+
+@-webkit-keyframes animates-loading {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes animates-loading {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}

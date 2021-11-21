@@ -1,0 +1,60 @@
+@font-face {
+  font-family: 'Gill Sans MT';
+  font-style: normal;
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: "Arial Rounded";
+  font-style: normal;
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: "Segoe Script";
+  font-style: normal;
+  font-weight: normal;
+}
+
+$font-1: "Gill Sans MT";
+$font-2: "Arial Rounded";
+$font-3: "Segoe Script";
+
+$bleu: rgb(4,82,119);
+$bleu-2: rgba(4, 83, 119, 0.926);
+$jaune: rgb(211,156,4);
+$jaune-2: rgb(201,161,49);
+$orange: rgb(238,109,35);
+$vert: rgb(130,195,65);
+$rouge: rgb(239,60,35);
+$color-1: #E5E5E5;
+$color-2: #BBBCBC;
+$color-3: #7c7560;
+$color-4: #7E7F7F;
+$color-5: #201b0b;
+$color-6: #222222;
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: $font-1;
+  color: $color-6;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  color: $color-1;
+  text-decoration: none;
+}
+
+a:hover {
+  color: $jaune;
+  text-decoration: none;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: $font-1;
+}

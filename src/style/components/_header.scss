@@ -1,0 +1,130 @@
+// header
+.header {
+    transition: all 0.5s;
+    background-color: $bleu-2;
+    z-index: 997;
+    padding: 15px 0;
+    border-bottom: 1px solid $color-1;
+
+    li {
+        color: $jaune;
+
+        &:hover {
+            color: white;
+        }
+    }
+}
+
+.sticky {
+    position: sticky;
+    top: 0;
+}
+
+.header.header-scrolled {
+    border-color: $color-1;
+    box-shadow: 0px 2px 15px $bleu;
+}
+
+img {
+    width: 100px;
+}
+
+// navigation
+.navbar {
+    padding: 0;
+}
+
+.navbar ul {
+    margin: 0;
+    display: flex;
+    list-style: none;
+    align-items: center;
+}
+
+.navbar li {
+    position: relative;
+}
+
+.navbar li, 
+.navbar li:focus{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 0 10px 15px;
+    font-size: 17px;
+    font-weight: 500;
+    white-space: nowrap;
+    transition: 0.2s;
+}
+
+.navbar li i, #navbar li:focus i {
+    font-size: 12px;
+    line-height: 0;
+    margin-left: 5px;
+}
+
+// mobile navigation
+.mobile-nav-toggle {
+    color: $jaune;
+    font-size: 28px;
+    cursor: pointer;
+    display: none;
+    line-height: 0;
+    transition: 0.3s;
+}
+
+.mobile-nav-toggle.bi-x {
+    color: $jaune;
+}
+
+@media (max-width: 1030px) {
+    .mobile-nav-toggle {
+        display: block;
+    }
+    .navbar ul {
+        display: none;
+    }
+}
+
+.navbar-mobile {
+    position: fixed;
+    overflow: hidden;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    background: $color-1;
+    transition: 0.3s;
+    z-index: 999;
+}
+
+.navbar-mobile .mobile-nav-toggle {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+}
+
+.navbar-mobile ul {
+    display: block;
+    position: absolute;
+    top: 55px;
+    right: 15px;
+    bottom: 15px;
+    left: 15px;
+    padding: 10px 0;
+    background-color: $color-1;
+    overflow-y: auto;
+    transition: 0.3s;
+}
+
+.navbar-mobile li {
+    padding: 10px 20px;
+    font-weight: bold;
+    font-size: 15px;
+    color: $jaune;
+}
+
+.navbar-mobile li:hover, 
+.navbar-mobile .active {
+    color: $bleu;
+}
