@@ -14,16 +14,16 @@ const About = () => {
             <section id={"about"} className={"about"}>
                 <div className={"container"} data-aos={"fade-up"}>
                     <div className={"section-title"}>
-                        <h2>Nous à MFC</h2>
-                        <p>MFC est construit autour des concepts de <em>BIO</em>, <em>NATUREL</em>, <em>CULTUREL </em>
+                        <h2>Nous à Mfive</h2>
+                        <p>M <em>five </em>Corporation est construit autour des concepts de <em>BIO</em>, <em>NATUREL</em>, <em>CULTUREL </em>
                             et tends à intégrer tous les aspects de la vie.
                         </p>
-                        <p>M <em>Five </em>Corporation s'inscrit dans une dynamique des nouvelles entreprises
+                        <p>M <em>five </em>Corporation s'inscrit dans une dynamique des nouvelles entreprises
                         africaines, qui tendent à valoriser notre identité culturelle africaine;
                         et ainsi mettre en avant des valeurs humaines nécessaires pour l'épanouissement des individus
                         dans la société. </p>
                         <br/>
-                        <p>MFC est aussi un groupe ayant en son sein plusieurs services dans les domaines les  plus vues...</p>
+                        <p>Mfive Corp. est aussi un groupe ayant en son sein plusieurs services dans les domaines les  plus vues...</p>
                     </div>
                 </div>
 
